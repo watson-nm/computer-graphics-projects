@@ -1,0 +1,31 @@
+    var radius = 0.5;
+    var oX = 0;
+    var oY = 0;
+    var numPoints = 8;
+    var pi = Math.pi;
+
+    // Vertices
+    var vertices = [
+    ];
+
+    // Loop to fill vertices
+    /*
+    for (let i = 0; i < numPoints; i++) {
+        var degree = i * (360/numPoints);
+        var theta = degree * (pi/180);
+
+        var x = radius * Math.cos(theta) + oX;
+        var y = radius * Math.sin(theta) + oY;
+        vertices.push(vec2(x, y));
+    }*/
+
+    // Colors
+    var colors = [
+    ];
+
+    // Loop to fill colors
+    /*
+    for (let i = 0; i < numPoints; i++) {
+        colors.push(vec3(1, 0, 0));
+    }
+    */
